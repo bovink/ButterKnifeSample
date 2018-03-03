@@ -16,6 +16,87 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--bind view 绑定单个视图-->
+        <activity
+            android:name=".butterknife.bindview.BindViewActivity"
+            android:screenOrientation="portrait" />
+
+        <!--bind views 绑定多个视图-->
+        <activity
+            android:name=".butterknife.bindviews.BindViewsActivity"
+            android:screenOrientation="portrait" />
+
+        <!--bind resource 绑定资源-->
+        <activity
+            android:name=".butterknife.bindresource.BindAnimActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindresource.BindArrayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindresource.BindBitmapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindresource.BindBoolActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindresource.BindColorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindresource.BindDimenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindresource.BindDrawableActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindresource.BindFloatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindresource.BindFontActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindresource.BindIntActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindresource.BindStringActivity"
+            android:screenOrientation="portrait" />
+
+        <!--bind event 绑定事件-->
+        <activity
+            android:name=".butterknife.bindevent.OnCheckedChangedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindevent.OnClickActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindevent.OnEditorActionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindevent.OnFocusChangeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindevent.OnItemClickActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindevent.OnItemLongClickActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindevent.OnItemSelectedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindevent.OnLongClickActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindevent.OnPageChangeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindevent.OnTextChangedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".butterknife.bindevent.OnTouchActivity"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>
