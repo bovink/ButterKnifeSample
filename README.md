@@ -1,6 +1,6 @@
 一个ButterKnife用法的样例项目
 
-an example project of ButterKnife usage.
+an sample project of ButterKnife usage.
 
 ## blog 
 
